@@ -1,0 +1,34 @@
+repo-guard
+Copyright (C) 2026 hymsk
+
+This program is free software: you can redistribute it and/or modify it under
+the GNU Affero General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. It is distributed WITHOUT ANY WARRANTY; see LICENSE for details.
+
+The plugin is derived from an Agent Plugin Base template, with independent
+policy, directory-preflight and native installation behavior. See
+BASE-LINEAGE.md for the reference baseline and intentional differences.
+This is source-template derivation, not a runtime dependency on the base.
+The recorded original baseline is not yet mapped to a confirmed public
+repository reference; it must not be presented as an existing public release.
+The copyright holder has authorized this source distribution under
+AGPL-3.0-or-later.
+
+Modification notice (2026-09-20): this distribution contains an independently
+modified Agent Plugin Base derivative, including repository policies,
+directory preflight, host error handling and installation management.
+The 2026-09-20 revision dated above updates provenance, bilingual
+documentation, release guidance and export regression checks; it is not the
+original derivation date. Git history is not included in the source export.
+Further modified distributions should retain a dated change notice.
+
+OpenCode host packages declare @opencode-ai/plugin 1.18.31 as a dependency.
+Dependencies are installed separately, not vendored in this source export;
+they retain their own licenses and notices. Review the resolved dependency
+tree before redistributing installed packages. Host CLIs are external tools
+and are not included or relicensed by this project.
+
+Distributors of generated host packages must also provide the matching
+complete source and build/install scripts as required by LICENSE. The fixed
+public source export includes those files; no hosted source URL is assumed.

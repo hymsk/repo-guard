@@ -1,0 +1,22 @@
+{
+  "name": "repo-guard",
+  "version": "0.1.0",
+  "license": "AGPL-3.0-or-later",
+  "description": "Cross-host security plugin for repository access policies and ancestor directory markers.",
+  "author": { "name": "hymsk", "email": "lxj_hymsk@163.com" },
+  "repository": { "type": "git", "url": "https://github.com/hymsk/repo-guard.git" },
+  "homepage": "https://github.com/hymsk/repo-guard",
+  "bugs": { "url": "https://github.com/hymsk/repo-guard/issues" },
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "files": ["LICENSE", "NOTICE", "agent-plugin.json", "opencode.mjs", "src", "scripts", "examples", "BASE-LINEAGE.md", "README.md", "README.zh-cn.md", "SPEC.md", "SECURITY.md"],
+  "scripts": {
+    "build": "node scripts/agent-plugin.mjs build",
+    "validate": "node scripts/agent-plugin.mjs validate",
+    "test": "node tests/guard.test.mjs && node tests/whitelist.test.mjs && node tests/csv-parser.test.mjs && node tests/git-url.test.mjs && node tests/mode.test.mjs && node tests/opencode-tool.test.mjs && node --test tests/export-source.test.mjs tests/config.test.mjs tests/access-policy.test.mjs tests/protocol.test.mjs tests/build.test.mjs tests/native-install.test.mjs && node tests/codeagent-install.test.mjs",
+    "test:host": "node tests/opencode-load.test.mjs",
+    "test:standalone": "node scripts/test-standalone.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

@@ -1,0 +1,11 @@
+dist/
+node_modules/
+*.log
+white_typeA.csv
+export_repos.sh
+.env
+.env.*
+*.csv
+!examples/whitelist.csv
+!examples/blacklist.csv
+config.local.json

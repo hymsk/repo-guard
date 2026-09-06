@@ -1,0 +1,6 @@
+{
+  "policyMode": "whitelist",
+  "whitelistCsv": "/absolute/path/to/whitelist.csv",
+  "forbiddenMarker": ".ai-forbidden",
+  "remote": "origin"
+}

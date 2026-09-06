@@ -1,0 +1,9 @@
+{
+  "name": "repo-guard",
+  "version": "0.1.0",
+  "description": "Cross-host security plugin for repository access policies and ancestor directory markers.",
+  "author": { "name": "hymsk", "email": "lxj_hymsk@163.com" },
+  "entry": "./src/plugin.mjs",
+  "capabilities": { "hooks": ["tool.before"], "skills": [], "commands": [], "agents": [], "mcpServers": {} },
+  "hosts": { "codex": { "enabled": true }, "claude": { "enabled": true }, "opencode": { "enabled": true } }
+}

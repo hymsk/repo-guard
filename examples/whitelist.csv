@@ -1,0 +1,3 @@
+name,repo,details
+Demo App,https://git.example.invalid/example/demo-app.git,Example application repository
+Shared Library,git@git.example.invalid:example/shared-library.git,Example shared library repository

@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "kind": "plugin",
+  "hosts": ["codex", "claude", "opencode"],
+  "cli_hosts": ["codex", "claude", "opencode"]
+}
